@@ -1,3 +1,38 @@
 body {
-    background: blue;
+    background: slategrey;
+}
+
+header {
+    background-color: black;
+    height: 62px;
+    margin: 0px 0px 100px 0px;
+}
+
+.top-nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px 0px 100px 50px;
+}
+
+.top-nav a {
+    float: right;
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.top-nav a:hover {
+    color: black;
+    background-color: dimgray;
+}
+.top-nav p.name {
+    float: left;
+    background-color: navy;
+    color: #fff;
+    text-align: left;
+    padding: 15px 75px;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: bold;
 }
