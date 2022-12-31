@@ -1,38 +1,61 @@
 body {
     background: slategrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
 }
 
-header {
+.outer-nav {
     background-color: black;
-    height: 62px;
+    height: 100px;
     margin: 0px 0px 100px 0px;
+    min-width: 700px;
 }
 
 .top-nav {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px 0px 100px 50px;
 }
 
+.top-nav #headshot {
+    float: left;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    padding: 25px 0px;
+}
+
 .top-nav a {
+    overflow: hidden;
     float: right;
     color: #fff;
     text-align: center;
     padding: 15px 30px;
     text-decoration: none;
     font-size: 24px;
+    vertical-align: middle;
 }
 
 .top-nav a:hover {
     color: black;
     background-color: dimgray;
 }
+
 .top-nav p.name {
     float: left;
-    background-color: navy;
+    background-color: #2E4300;
+    border-radius: 20px;
     color: #fff;
     text-align: left;
+    margin-top: 67px;
     padding: 15px 75px;
     text-decoration: none;
     font-size: 36px;
     font-weight: bold;
+}
+
+.outer-nav .intro {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
 }
